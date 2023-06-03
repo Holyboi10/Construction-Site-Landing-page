@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#MainHead{
+    /* border: 1px solid blue; */
+    height: 120vh;
+    background-image: url(bgImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navBar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: white;
+    height: 8vh;
+    align-items: center;
+}
+#navBar ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    width: 70%;
+}
+#navBar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#navBar a:hover{
+    text-decoration: underline;
+    /* color: red; */
+    
+}
+#svg{
+    display: none;
+}
+#About{
+    /* border: 1px solid green; */
+    height: 70%;
+    margin-top: 80px;
+    color: white;
+    width: 40%;
+    margin-left: 80px;
+}
+#About h1{
+    font-size: 45px;
+}
+.buttn{
+    background-image: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
+    width: 200px;
+    height: 45px;
+    color: white;
+    border: none;
+}
+#wwd{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 30vh;
+    margin-top: -115px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    margin-left: 660px;
+    background-image: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
+}
+.wwd-a{
+    /* border: 1px solid gold; */
+    width: 20%;
+    padding: 100px 20px;
+}
+.wwd-b{
+    /* border: 1px solid gold; */
+    width: 60%;
+    padding: 100px 20px;
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 798px) {
+    #navbar{
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        padding: 15px;
+    }
+    #navBar ol{
+        display: none;
+    }
+    #svg{
+        display: block;
+    }
+    #About{
+        width: 90vw;
+        margin: auto;
+        padding: 10px;
+    }
+    #About h1{
+        font-size: 30px;
+    }
+    #wwd{
+        /* border: 1px solid red; */
+        width: 90vw;
+        margin: auto;
+        height: 20vh;
+        margin-top: -135px;
+    }
+
+   
+    
+   }
+

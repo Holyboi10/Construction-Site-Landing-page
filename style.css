@@ -82,6 +82,16 @@ body{
     width: 60%;
     padding: 100px 20px;
 }
+#logos{
+    /* border: 1px solid red; */
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
 
 @media screen and (min-device-width: 360px) and (max-device-width: 798px) {
     #navbar{
@@ -119,6 +129,12 @@ body{
         width: 60%;
         padding: 35px 8px;
         font-size: 11px;
+    }
+    #logos{
+        flex-wrap: wrap;
+        width: 100vw;
+        margin-top: 40px;
+        
     }
 
    

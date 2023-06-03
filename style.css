@@ -10,7 +10,7 @@ body{
 }
 #MainHead{
     /* border: 1px solid blue; */
-    height: 120vh;
+    height: 100vh;
     background-image: url(bgImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@ body{
     /* border: 1px solid red; */
     width: 50%;
     height: 30vh;
-    margin-top: -115px;
+    margin-top: -130px;
     color: white;
     font-size: 14px;
     display: flex;
@@ -104,11 +104,21 @@ body{
         font-size: 30px;
     }
     #wwd{
-        /* border: 1px solid red; */
-        width: 90vw;
+        width: 100vw;
         margin: auto;
         height: 20vh;
-        margin-top: -135px;
+    }
+    .wwd-a{
+        /* border: 1px solid gold; */
+        width: 20%;
+        font-size: 13px;
+        padding: 50px 20px;
+    }
+    .wwd-b{
+        /* border: 1px solid gold; */
+        width: 60%;
+        padding: 35px 8px;
+        font-size: 11px;
     }
 
    
